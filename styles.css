@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height: 100vh; */
+}
+
+header{
+    background-color: aqua;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 50px;
+    gap: 10px;
+}
+
+.catalog-section{
+    flex: 1;
+    background-color: blanchedalmond;
+}
+
+.catalog-section__product-wrapper{
+    width: 100%;
+}
+
+.catalog-section__product-wrapper__product-container{
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+/* STARTING CATALOG PRODUCT STYLE SECTION */
+
+.catalog-section__product-wrapper__product-container__product{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.catalog-section__product-wrapper__product-container__product__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.catalog-section__product-wrapper__product-container__product__image-container{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* FINISHING CATALOG PRODUCT STYLE SECTION */
+
+.cart-section{
+    width: 350px;
+    position: sticky;
+    top: 40px;
+    align-self: flex-start;
+    background-color: chartreuse;
+}
+
+.cart-section__resume-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cart-section__resume-wrapper__title{
+    width: 100%;
+    text-align: center;
+}
+
+.cart-section__resume-wrapper__product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cart-section__resume-wrapper__product-list__product-container{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.cart-section__resume-wrapper__product-list__product-container__product{
+    padding: 10px;
+}
+
+.cart-section__resume-wrapper__resume{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+}

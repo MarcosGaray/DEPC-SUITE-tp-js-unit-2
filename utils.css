@@ -1,0 +1,8 @@
+.hidden{
+    display: none;
+}
+
+.primary-btn{
+    background-color: blueviolet;
+    color: white;
+}
