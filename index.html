@@ -9,11 +9,14 @@
 </head>
 <body>
     <header>
-
+        BUY YOUR FAVOURITES
     </header>
     <main>
         <section class="catalog-section">
             <div class="catalog-section__product-wrapper">
+                <h3 class="catalog-section__product-wrapper__title">
+                    Catalog
+                </h3>
                 <div class="catalog-section__product-wrapper__product-container">
                     <span id="spinner">...Loading</span>
                     <span id="error"></span>
@@ -22,12 +25,23 @@
         </section>
         <section class="cart-section">
             <div class="cart-section__resume-wrapper">
-                <h3 class="cart-section__resume-wrapper__title">Resume</h3>
+                <h3 class="cart-section__resume-wrapper__title">CART</h3>
                 <div class="cart-section__resume-wrapper__product-container">
                     
                 </div>
                 <div class="cart-section__resume-wrapper__resume">
-
+                    <div class="cart-section__resume-wrapper__resume__totals-container">
+                        <span class="cart-section__resume-wrapper__resume__totals-container__total-items">
+    
+                        </span>
+                        <span class="cart-section__resume-wrapper__resume__totals-container__total-price">
+                            
+                        </span>
+                    </div>
+                    <div class="cart-section__resume-wrapper__resume__buttons-container">
+                        <button id="remove-all-btn" class="primary-btn">Remove all</button>
+                        <button id="buy-btn" class="primary-btn">Buy</button>
+                    </div>
                 </div>
             </div>
         </section>
